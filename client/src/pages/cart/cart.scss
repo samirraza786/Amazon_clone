@@ -1,0 +1,94 @@
+.cart {
+    background-color: #fff;
+    display: flex;
+    padding: 60px 50px 90px;
+
+    .item-img {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        img {
+            width: 40%;
+            height: 80%;
+            margin: 10px 0 20px 0;
+        }
+
+        .buttons {
+            width: 55%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .btn-1 {
+                margin-top: 20px;
+                margin-right: 20px;
+                padding: 10px 30px;
+                cursor: pointer;
+                background-color: #FFD814;
+                border: none;
+                outline: none;
+                border-radius: 20px;
+                color: #0F1111;
+                letter-spacing: .5px;
+                font-size: 14px;
+                box-shadow: 0 0 10px -5px rgba(0, 0, 0, .5);
+                width: 100%;
+
+                &:hover {
+                    background-color: #f1cc13;
+                }
+            }
+
+            .btn-2 {
+                width: 100%;
+                margin-top: 20px;
+                margin-right: 20px;
+                padding: 10px 30px;
+                cursor: pointer;
+                background-color: #FFA41C;
+                letter-spacing: .5px;
+                font-size: 14px;
+                color: #0F1111;
+                border: none;
+                outline: none;
+                border-radius: 20px;
+                box-shadow: 0 0 10px -5px rgba(0, 0, 0, .5);
+
+                &:hover {
+                    background-color: #f1cc13;
+                }
+            }
+
+        }
+    }
+
+    .item-info {
+        flex: 1;
+        border: 1px solid #c4c4c4;
+        padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        border-radius: 6px;
+
+        h2 {
+            margin: 10px 0 0 0;
+            font-weight: 500;
+            font-size: 27px;
+        }
+
+        h3 {
+            margin: 10px 0 15px 0;
+            font-weight: 500;
+            font-size: 23px;
+        }
+
+        span {
+            margin-top: 15px;
+            color: #565959;
+            font-size: 15px;
+        }
+    }
+}

@@ -1,0 +1,114 @@
+.footer {
+    .footer-top {
+        background-color: #232f3e;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 30px 150px 15px;
+
+
+        .col {
+            display: flex;
+            flex-direction: column;
+            color: #fff;
+
+
+            .head {
+                color: white;
+                cursor: pointer;
+                margin-bottom: 15px;
+                font-size: 16px;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+
+            p {
+                margin: 0;
+                margin-bottom: 8px;
+
+                span {
+                    color: #c7cacb;
+                    cursor: pointer;
+                    font-size: 14px;
+
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+
+        }
+    }
+
+    .img-logo {
+        width: 100%;
+        background-color: #232f3e;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+
+        img {
+            height: 40px;
+            width: 120px;
+        }
+
+        .country {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            gap: 1rem;
+            width: 45%;
+            flex-wrap: wrap;
+            font-size: 12px;
+            margin-top: 20px;
+            font-weight: 600;
+
+            span {
+                margin: 0;
+            }
+        }
+    }
+
+    .img-logo {
+
+        span {
+            color: #c7cacb;
+            cursor: pointer;
+
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .footer-bottom {
+        background-color: #131a22;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+        .footer-items {
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            color: white;
+            width: 60%;
+            flex-wrap: wrap;
+        }
+
+        span {
+            font-size: 13px;
+            cursor: pointer;
+        }
+    }
+}

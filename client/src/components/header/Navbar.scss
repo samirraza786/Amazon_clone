@@ -1,0 +1,100 @@
+.navbar {
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .left {
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-left: 7%;
+
+        .img-logo {
+            padding: 5px 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            
+            &:hover {
+                border: 1px solid #fff;
+                transition: all 0.1s ease;
+            }
+
+
+            img {
+                width: 120px;
+                height: 35px;
+                background-color: #131921;
+
+            }
+        }
+
+
+
+        .search {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            input {
+                height: 35px;
+                width: 450px;
+                margin-left: 190px;
+                font-size: 1rem;
+                color: #3d3d3d;
+
+                &::placeholder {
+                    color: #858484;
+                }
+
+                &:focus {
+                    outline: none !important;
+                    border-color: #ffbc2c;
+                    box-shadow: 1px 1px 5px 0px #ffbc2c;
+                }
+            }
+
+            .search-icon {
+                background-color: #febd69;
+                color: black;
+                height: 40px;
+                width: 40px;
+                margin-left: 0;
+                cursor: pointer;
+            }
+
+            .extrasearch{
+                background-color: #fff;
+                color: #000;
+                top: 46px;
+                width: 500px;
+                z-index: 999;
+                position: absolute;
+                margin-left: 190px;
+    
+            }
+        }
+    }
+
+
+    .right {
+        color: white !important;
+        margin-right: 4%;
+
+        Button {
+            font-family: 'Open Sans', sans-serif !important;
+
+            &:hover {
+                border: 1px solid white;
+                transition: all 0.1s ease;
+            }
+        }
+
+    }
+
+
+}

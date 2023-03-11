@@ -1,0 +1,26 @@
+.add_remove_select {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+
+    p {
+        color: #007185;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+    select {
+        padding: 5px;
+        width: 50px;
+        border-radius: 8px;
+        background-color: #eeeded;
+        letter-spacing: .2px;
+        margin-top: 4px;
+        outline: none;
+        border: 1px solid #e7e7e7;
+        box-shadow: 0 0 15px -7px rgba(0, 0, 0, 1);
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,43 @@
+.empty {
+    .empty_buy {
+        flex: .7;
+        background-color: #fff;
+        padding: 10px 20px;
+        border-radius: 2px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+
+        img {
+            width: 70px;
+        }
+
+        .emptydata {
+            margin-left: 30px;
+        }
+
+
+        .empty_buy .emptydata h1 {
+            font-size: 25px;
+            font-weight: 700;
+        }
+
+        .emptydata p {
+            font-size: 14px;
+            margin-top: 10px;
+            color: #007185;
+            cursor: pointer;
+        }
+
+        .empty_btn {
+            margin-left: 60px;
+            padding: 7px 13px;
+            text-decoration: none;
+            background-color: #007185;
+            color: #fff;
+            border-radius: 5px;
+        }
+    }
+
+}

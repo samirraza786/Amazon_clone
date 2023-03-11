@@ -1,0 +1,44 @@
+.slide {
+    width: 98%;
+    margin: 10px auto;
+    background-color: #fff;
+    border-radius: 4px;
+
+    .top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 20px 10px 20px;
+
+        p {
+            margin: 0;
+            font-weight: 500;
+            color: rgb(80, 80, 80);
+        }
+
+        Button {
+            text-transform: capitalize;
+        }
+    }
+
+    .products_items {
+        margin-top: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        width: 200px;
+
+        img {
+            width: 170px;
+            height: 170px;
+            margin-top: 4px;
+        }
+        p {
+            margin: 5px 10px ;
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.newNavbar {
+    background-color: #232f3e;
+    color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+    .left {
+        ul {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            padding-left: 10px;
+
+            li {
+                margin: 0 0 0 10px;
+                color: white;
+            }
+
+            Button{
+                text-transform: none;
+                font-family: 'Open Sans', sans-serif !important;
+
+                &:hover{
+                    border: 1px solid #fff;
+                    transition: all 0.1s ease;
+                }
+            }
+        }
+    }
+
+    .right{
+        img{
+            height: 36px;
+            margin: 0;
+            padding: 0;
+        }
+    }
+
+
+
+}

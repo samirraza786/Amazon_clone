@@ -1,0 +1,162 @@
+.buynow {
+    background-color: #eaeded;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 15px;
+    padding: 30px 0 30px 0;
+
+    .left {
+        flex: .7;
+        background-color: #fff;
+        border-radius: 2px;
+        padding: 0px 15px 0 20px;
+
+        h1 {
+            margin-bottom: 10px;
+        }
+
+        .select-para {
+            color: #0298b3;
+            margin-top: 0;
+            margin-bottom: 23px;
+        }
+
+        .price {
+            position: relative;
+
+            span {
+                position: absolute;
+                right: 10px;
+                bottom: 5px;
+                color: #848282;
+            }
+        }
+
+        .item-container {
+            display: flex;
+            justify-content: flex-start;
+            gap: 45px;
+            padding: 10px 20px 30px 20px;
+            position: relative;
+            margin-bottom: 0px;
+
+            img {
+                flex: 0.20;
+                width: 100%;
+                height: 200px;
+            }
+
+            .item-info {
+                flex: .70;
+                display: flex;
+                flex-direction: column;
+
+                .big {
+                    font-size: 22px;
+                    margin-bottom: 5px;
+                }
+
+                .small {
+                    font-size: 20px;
+                    margin-bottom: 5px;
+                }
+
+                p {
+                    margin: 0 0 5px 0;
+                    font-size: 14px;
+                }
+
+                img {
+                    width: 80px;
+                    margin-top: 3px;
+                }
+            }
+
+            .price {
+                position: absolute;
+                right: 10px;
+                font-weight: 900;
+                font-size: 20px;
+            }
+        }
+    }
+
+
+
+
+    .right {
+        flex: .2;
+        border-radius: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .top {
+            margin-bottom: 20px;
+            background-color: #fff;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .bottom {
+            background-color: #fff;
+            padding: 30px 15px;
+
+            span {
+                color: #248fc1;
+                font-size: 14px;
+            }
+
+            p {
+                color: #565959;
+                font-size: 14px;
+            }
+
+            h3 {
+                font-weight: 500;
+            }
+
+            Button {
+                width: 100%;
+                width: 100%;
+                margin-top: 15px;
+                padding: 8px 0;
+                border-radius: 8px;
+                border: none;
+                outline: none;
+                background-color: #FFD814;
+                font-size: 14px;
+                cursor: pointer;
+                box-shadow: 0 0 10px -5px rgba(0, 0, 0, .5);
+                text-transform: capitalize;
+                color: rgb(35, 34, 34);
+
+                &:hover {
+                    background-color: #f3cc0a;
+                }
+            }
+
+
+            .emi {
+                padding: 10px;
+                border: 1px solid #ebe8e8;
+                margin-top: 20px;
+                margin-bottom: 10px;
+                cursor: pointer;
+                border-radius: 3px;
+                display: flex;
+                justify-content: space-between;
+
+                .emi-text {
+                    color: rgb(35, 34, 34) !important;
+                    margin: 0;
+                }
+            }
+
+        }
+    }
+}

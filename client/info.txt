@@ -1,0 +1,5 @@
+for banner carousel -- https://www.npmjs.com/package/react-material-ui-carousel
+
+for multi slider -- https://www.npmjs.com/package/react-multi-carousel
+
+react toastify -- https://www.npmjs.com/package/react-toastify
