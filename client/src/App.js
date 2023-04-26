@@ -28,10 +28,12 @@ function App() {
         <Navbar />
         {user && <NewNavbar />}
         <Routes>
-          <Route path="/" element={user ? <Home /> : <Navigate to='/login' />} />
+          {/* <Route path="/" element={user ? <Home /> : <Navigate to='/login' />} /> */}
+          <Route path="/" element={<Home />} />
           <Route path="/login" element={!user ? <Login /> : <Navigate to='/' />} />
           <Route path="/register" element={!user ? <Register /> : <Navigate to='/' />} />
-          <Route path="/getproduct/:id" element={user ? <Cart /> : <Navigate to='/login' />} />
+          {/* <Route path="/getproduct/:id" element={user ? <Cart /> : <Navigate to='/login' />} /> */}
+          <Route path="/getproduct/:id" element={<Cart />} />
           <Route path="/buynow" element={user ? <BuyNow /> : <Navigate to='/login' />} />
         </Routes>
 

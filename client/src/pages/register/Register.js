@@ -9,7 +9,6 @@ import UserContext from '../../context/UserContext';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
-
 function Register() {
     const [name, setName] = useState("");
     const [email, setEmail] = useState("");
@@ -19,7 +18,6 @@ function Register() {
 
     const context = useContext(UserContext);
     const { setProgress } = context;
-
 
     const handleRegister = async (e) => {
         e.preventDefault();

@@ -6,7 +6,7 @@ import SearchIcon from '@mui/icons-material/Search';
 import Button from '@mui/material/Button';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import Badge from '@mui/material/Badge';
-import { Link } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
 import Avatar from '@mui/material/Avatar';
 import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
@@ -26,6 +26,8 @@ function Header() {
   // get all products
   const { products } = context;
 
+  const navigate = useNavigate();
+
 
   const getText = (text) => {
     setText(text)
@@ -43,6 +45,7 @@ function Header() {
     localStorage.removeItem("user");
     localStorage.removeItem("accessToken");
     setUser(null);
+    navigate('/');
   }
   return (
     <div className='navbar'>
