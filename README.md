@@ -7,4 +7,4 @@ Used MongoDB aggregate function group and fetch data randomly each time.
 Technologies used: React.js, Node.js, Express.js, MongoDB Atlas, Firebase, JWT.
 
 
-deployment link -- https://mern-amazon-clone-vaibhav.netlify.app/
+
